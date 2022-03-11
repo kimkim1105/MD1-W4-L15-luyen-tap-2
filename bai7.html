@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let a = +prompt("Nhập vào số nguyên a: ");
+    let b = +prompt("Nhập vào số nguyên b: ");
+    function chuyendoi(a,b){
+        alert("Số nguyên a là: " +a+" b là: "+b);
+        console.log('số nhập vào',a,b)
+        let temp = a;
+        a = b;
+        b = temp;
+        console.log('sau khi đổi vị trí',a,b)
+        alert("Số sau khi đổi vị trí: a là "+a+" b là "+b)
+    }
+    chuyendoi(a,b);
+</script>
